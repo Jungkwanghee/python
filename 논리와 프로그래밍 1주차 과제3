@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMwNh4Ql7ugpXht/Bzg4FR8",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jungkwanghee/python/blob/main/%EB%85%BC%EB%A6%AC%EC%99%80%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%201%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "wuAMiTiOwnEO"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "Repeat = True\n",
+        "\n",
+        "while Repeat == True:\n",
+        "    Number1 = 1\n",
+        "    Number2 = 1\n",
+        "    Final_Number = int(input(\"30이하의 정수를 입력하세요:\"))\n",
+        "    if Final_Number <= 30:\n",
+        "        while Number1 <= Final_Number:\n",
+        "            print(Number2)\n",
+        "            Number3 = Number1 + 1\n",
+        "            Number1 += 1\n",
+        "            Number2 = str(Number2) + str(Number3)\n",
+        "    else:\n",
+        "        print(\"숫자가 너무 큽니다.\")\n",
+        "        Repeat = False\n",
+        "        Repeat = True"
+      ],
+      "metadata": {
+        "id": "sds_F8CzwhFP"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
